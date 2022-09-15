@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            var jantar = Number(window.prompt("Qual foi o valor do jantar"))
+            if(jantar<=100){
+                var gorjeta = (jantar/100)*10
+                var tudo = jantar+gorjeta
+                window.alert (`O valor da taxa da gorjeta foi ${gorjeta.toFixed(1)} e o valor do jantar com a taxa ficou ${tudo.toFixed(2)}`)
+            }else{
+                var gorjeta = jantar*0.07
+                var tudo = jantar+gorjeta
+                window.alert (`O valor da taxa da gorjeta foi ${gorjeta.toFixed(1)} e o valor do jantar com a taxa ficou ${tudo.toFixed(2)}`)
+            }
+           
+    </script>
+</body>
+</html>
